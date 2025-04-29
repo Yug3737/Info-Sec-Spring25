@@ -8,7 +8,5 @@ public class Entropy{
     public static void main(String args[]){
         System.out.print("Enter your password:");
     }
-
-    
-
+    // ENTROPY WILL BE BACK...
 }
