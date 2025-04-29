@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  /* Added some padding to the body for spacing */
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d9f9f9, #b2f0e8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  /* Removed background: white; */
+  padding: 0;
+  /* Removed padding from the container */
+  border-radius: 0;
+  /* Removed border-radius */
+  box-shadow: none;
+  /* Removed box-shadow */
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  /* Increased max-width for better table display */
+}
+
+h1 {
+  color: #009999;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  background: #fff9f2;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 153, 153, 0.1);
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #b2dfdb;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: #00b3b3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #009999;
+}
+
+.switch-btn {
+  background: transparent;
+  color: #00a0a0;
+  border: none;
+  font-size: 0.95rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  margin-left: auto;
+  /* Center the table horizontally */
+  margin-right: auto;
+  /* Center the table horizontally */
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid #b2dfdb;
+  text-align: left;
+}
+
+th {
+  background-color: #d0f0ef;
+  color: #006666;
+}
